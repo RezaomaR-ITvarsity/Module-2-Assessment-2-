@@ -1,0 +1,186 @@
+body{
+  padding    : 0;
+  margin     : 0;
+  font-family: Helvetica;
+}
+
+/*=======header=======*/
+
+#header{
+   position: fixed;
+   top     : 0;
+   left    : 0;
+   z-index : 500;
+   width   :100%;
+   height  :80px;
+   background-image:url(images/bgmetallic-jpg.jpg);
+   background-repeat: repeat-x;  
+}
+
+#header img{
+  display: block;
+  margin : auto;
+  height : 70%;
+  padding-top: 15px;
+}
+
+
+/*=======tabs-top=======*/
+
+#tabs-top{
+  position: fixed;
+  top     : 80px;
+  left    : 0;
+  z-index : 500;
+  width   : 100%;
+  height  : 60px;
+  background-color: rgb(66, 79, 161);
+}
+
+#tabs-top a{
+  float   : left;
+  display : block;
+  width   : 33%;
+  height  :35px;
+  font-weight : 700;
+  color       : yellow;
+  text-align  : center;
+  text-decoration : none;
+  padding-top     : 22px;  
+}
+
+/*=======Main Home=======*/
+
+#home-main{
+  margin-top: 140px;
+  background-size: cover;
+
+}
+
+/*=======Tabs-Bottom=======*/
+
+#tabs-bottom{
+  position: fixed;
+  bottom   : 0px;
+  left     : 0;
+  z-index  : 500;
+  width    : 100%;
+  height   : 60px;
+  background-color: rgb(66, 79, 161);
+}
+
+#tabs-bottom a{
+ float : left;
+ display : block;
+ width : 33%;
+ height : 35px;
+ font-weight : 700;
+ color       : yellow;
+ text-align  : center;
+ text-decoration : none;
+ padding-top     : 22px;
+}
+
+/*=======Main=======*/
+
+#main{
+  margin-top: 140px;
+  background: url(images/pngtree-fashion-high-end-shopping-center-shopping-mall-yuehui-city-picture-image_1686925.jpg);
+  background-size: cover;
+}
+
+#content{
+  padding-top: 1px;
+  padding-bottom: 50px;
+}
+
+/*=======Info Box=======*/
+
+a.info-box{
+  text-decoration : none;
+  background      : rgba(255 ,255, 255, .8);
+  width           : 90%;
+  height          : 180px;
+  display         : block;
+  margin          : auto;
+  margin-top      : 12px;
+  padding         : 1px; 
+}
+
+.info-box img{
+  height : 170px;
+  margin : 10px;
+  float  : left;
+}
+
+.info-box h3{
+  padding : 0;
+  margin-bottom :0;
+  width : 90%;
+  color : #572800;
+}
+
+.info-box p{
+  margin  : 0;
+  padding : 0;
+  width   : 90%;
+  color   : #131313;
+}
+
+.info-box img.right{
+  float      : right;
+  margin-top : 75px;
+  height     :40px; 
+}
+
+/*=======Info Box Full=======*/
+
+#info-box-full{
+  background-color : rgba(255, 255, 255, .8) ;
+  width   : 90%;
+  display : block;
+  margin  : auto;
+  margin-top : 12px;
+  padding    : 10px;
+}
+
+
+
+#info-box-full img{
+  width : 100%;
+}
+
+
+
+#info-box-full h3{
+  text-align : center;
+}
+
+/*=======FORM=======*/
+
+input{
+  width: 100%;
+  height: 25px;
+  margin: 12px 0;
+  border: 1px solid #929292;
+}
+
+textarea{
+  width: 100%;
+  height: 65px;
+  margin: 12px 0;
+  border: 1px solid #929292;
+}
+
+.button{
+  display: block;
+  width: 100%;
+  background-color: forestgreen;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px 0;
+  padding: 8px 0;
+}
